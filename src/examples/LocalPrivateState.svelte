@@ -7,4 +7,4 @@
   }
 </script>
 
-{value} <button on:click|preventDefault={increment}>Inc</button>
+{value} <button on:click|preventDefault={increment}>++</button>
