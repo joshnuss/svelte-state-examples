@@ -1,10 +1,10 @@
 <script>
-  import LocalPrivateState from './examples/LocalPrivateState.svelte'
-  import LocalPublicState from './examples/LocalPublicState.svelte'
-  import LocalTreeState from './examples/LocalTreeState.svelte'
-  import PeerA from './examples/LocalSharedState/PeerA.svelte'
-  import PeerB from './examples/LocalSharedState/PeerB.svelte'
-  import LocalStorageState from './examples/LocalStorageState.svelte'
+  import LocalPrivateState from './examples/LocalPrivateState'
+  import LocalPublicState from './examples/LocalPublicState'
+  import LocalTreeState from './examples/LocalTreeState'
+  import PeerA from './examples/LocalSharedState/PeerA'
+  import PeerB from './examples/LocalSharedState/PeerB'
+  import LocalStorageState from './examples/LocalStorageState'
 
   let boundValue = 0;
 </script>

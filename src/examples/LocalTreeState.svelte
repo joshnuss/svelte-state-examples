@@ -1,7 +1,7 @@
 <script>
   import {setContext} from 'svelte'
   import {writable} from 'svelte/store'
-  import Descendant from './Descendant.svelte'
+  import Descendant from './Descendant'
 
   // "key" can be any value
   const key = "MY-KEY"
