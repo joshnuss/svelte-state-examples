@@ -4,6 +4,7 @@
   import LocalTreeState from './examples/LocalTreeState.svelte'
   import PeerA from './examples/LocalSharedState/PeerA.svelte'
   import PeerB from './examples/LocalSharedState/PeerB.svelte'
+  import LocalStorageState from './examples/LocalStorageState.svelte'
 
   let boundValue = 0;
 </script>
@@ -40,5 +41,11 @@
     <p>Any component can have access.<br>Lost once the tab is closed.</p>
     <div><PeerA/></div>
     <div><PeerB/></div>
+  </section>
+
+  <section>
+    <h2>Local Storage</h2>
+    <p>Any component can have access.<br>Persists even after you close the window/tab.</p>
+    <LocalStorageState/>
   </section>
 </main>
