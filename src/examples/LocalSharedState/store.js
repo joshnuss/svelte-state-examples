@@ -1,9 +1,7 @@
 import {writable} from 'svelte/store'
 
-const valueStore = writable(0)
-
-export default valueStore
+export const value = writable(0)
 
 export function increment() {
-  valueStore.update(value => value + 1)
+  value.update(n => n + 1)
 }

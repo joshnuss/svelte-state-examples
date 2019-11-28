@@ -1,14 +1,5 @@
 <script>
-  import {onMount} from 'svelte'
-  import valueStore, { increment } from './store'
-
-  let value;
-
-  const unsubscribe = valueStore.subscribe(new_value => {
-    value = new_value
-  })
-
-  onMount(() => unsubscribe)
+  import { value, increment } from './store'
 </script>
 
-In Peer B: {value} <button on:click|preventDefault={increment}>++</button>
+In Peer B: {$value} <button on:click|preventDefault={increment}>++</button>
