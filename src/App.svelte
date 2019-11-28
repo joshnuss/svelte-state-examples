@@ -26,7 +26,7 @@
     <h2>Local Bound State</h2>
     <p>The component and the component's owner have access.<br>Lost once the owner is removed from the DOM. <br>Two-way binding.</p>
     <LocalPublicState bind:value={boundValue}/>
-    <p>It's {boundValue} in the parent.</p>
+    <p>It's also {boundValue} in the parent.</p>
   </section>
 
   <section>
